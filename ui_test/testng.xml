@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/irush/IdeaProjects/UI_Testing/ui_test">
+        <classes>
+            <class name="tests.AddCustomerTest">
+                <methods>
+                    <include name="addCustomer"/>
+                </methods>
+            </class>
+            <class name="tests.SearchCustomersTest">
+                <methods>
+                    <include name="searchCustomers"/>
+                </methods>
+            </class>
+            <class name="tests.SortByFirstNameTest">
+                <methods>
+                    <include name="sortByFirstName"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
