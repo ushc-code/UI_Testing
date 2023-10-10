@@ -15,7 +15,5 @@ public class SortByFirstNameTest extends BaseTest {
         customersPage.sortByFirstName();
         List<String> actualMessage = customersPage.getValueFirstColumn();
         Assert.assertEquals(expectedMessage, actualMessage);
-
-
     }
 }
